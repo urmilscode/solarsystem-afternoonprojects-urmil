@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		B2D9A6AE2505864F000FDDF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9A6AD2505864F000FDDF9 /* AppDelegate.swift */; };
 		B2D9A6B02505864F000FDDF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9A6AF2505864F000FDDF9 /* SceneDelegate.swift */; };
-		B2D9A6B22505864F000FDDF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9A6B12505864F000FDDF9 /* ViewController.swift */; };
 		B2D9A6B52505864F000FDDF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A6B32505864F000FDDF9 /* Main.storyboard */; };
 		B2D9A6B725058653000FDDF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A6B625058653000FDDF9 /* Assets.xcassets */; };
 		B2D9A6BA25058653000FDDF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A6B825058653000FDDF9 /* LaunchScreen.storyboard */; };
+		B2D9A6C525058790000FDDF9 /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9A6C425058790000FDDF9 /* Planets.swift */; };
+		B2D9A6CB250593CB000FDDF9 /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9A6CA250593CB000FDDF9 /* PlanetsViewController.swift */; };
+		B2D9A6CD2505B6B1000FDDF9 /* PlanetsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9A6CC2505B6B1000FDDF9 /* PlanetsCell.swift */; };
+		B2D9A6CF2505BBA4000FDDF9 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A6CE2505BBA4000FDDF9 /* earth.png */; };
+		B2D9A6D12505BBE8000FDDF9 /* jupiter.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A6D02505BBE8000FDDF9 /* jupiter.png */; };
+		B2D9A6D32505BBF2000FDDF9 /* venus.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A6D22505BBF2000FDDF9 /* venus.png */; };
+		B2D9A6D52505BC14000FDDF9 /* uranus.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A6D42505BC14000FDDF9 /* uranus.png */; };
+		B2D9A6D72505BC1D000FDDF9 /* neptune.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A6D62505BC1D000FDDF9 /* neptune.png */; };
+		B2D9A6D92505BC2B000FDDF9 /* pluto.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A6D82505BC2B000FDDF9 /* pluto.png */; };
+		B2D9A6DB2505BC49000FDDF9 /* mercury.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A6DA2505BC49000FDDF9 /* mercury.png */; };
+		B2D9A6DD2505BC61000FDDF9 /* mars.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A6DC2505BC61000FDDF9 /* mars.png */; };
+		B2D9A6DF2505BC80000FDDF9 /* saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D9A6DE2505BC80000FDDF9 /* saturn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B2D9A6AA2505864F000FDDF9 /* solarsystem-afternoonprojects-urmil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "solarsystem-afternoonprojects-urmil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D9A6AD2505864F000FDDF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2D9A6AF2505864F000FDDF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2D9A6B12505864F000FDDF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2D9A6B42505864F000FDDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2D9A6B625058653000FDDF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2D9A6B925058653000FDDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2D9A6BB25058653000FDDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D9A6C425058790000FDDF9 /* Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets.swift; sourceTree = "<group>"; };
+		B2D9A6CA250593CB000FDDF9 /* PlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
+		B2D9A6CC2505B6B1000FDDF9 /* PlanetsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsCell.swift; sourceTree = "<group>"; };
+		B2D9A6CE2505BBA4000FDDF9 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		B2D9A6D02505BBE8000FDDF9 /* jupiter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jupiter.png; sourceTree = "<group>"; };
+		B2D9A6D22505BBF2000FDDF9 /* venus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venus.png; sourceTree = "<group>"; };
+		B2D9A6D42505BC14000FDDF9 /* uranus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uranus.png; sourceTree = "<group>"; };
+		B2D9A6D62505BC1D000FDDF9 /* neptune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neptune.png; sourceTree = "<group>"; };
+		B2D9A6D82505BC2B000FDDF9 /* pluto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pluto.png; sourceTree = "<group>"; };
+		B2D9A6DA2505BC49000FDDF9 /* mercury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mercury.png; sourceTree = "<group>"; };
+		B2D9A6DC2505BC61000FDDF9 /* mars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars.png; sourceTree = "<group>"; };
+		B2D9A6DE2505BC80000FDDF9 /* saturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saturn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,58 @@
 		B2D9A6AC2505864F000FDDF9 /* solarsystem-afternoonprojects-urmil */ = {
 			isa = PBXGroup;
 			children = (
-				B2D9A6AD2505864F000FDDF9 /* AppDelegate.swift */,
-				B2D9A6AF2505864F000FDDF9 /* SceneDelegate.swift */,
-				B2D9A6B12505864F000FDDF9 /* ViewController.swift */,
-				B2D9A6B32505864F000FDDF9 /* Main.storyboard */,
-				B2D9A6B625058653000FDDF9 /* Assets.xcassets */,
-				B2D9A6B825058653000FDDF9 /* LaunchScreen.storyboard */,
-				B2D9A6BB25058653000FDDF9 /* Info.plist */,
+				B2D9A6C625058AB4000FDDF9 /* Models */,
+				B2D9A6C125058681000FDDF9 /* Resources */,
+				B2D9A6C2250586D4000FDDF9 /* View Controllers */,
+				B2D9A6C3250586FB000FDDF9 /* Storyboard */,
+				B2D9A6CC2505B6B1000FDDF9 /* PlanetsCell.swift */,
 			);
 			path = "solarsystem-afternoonprojects-urmil";
+			sourceTree = "<group>";
+		};
+		B2D9A6C125058681000FDDF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9A6AD2505864F000FDDF9 /* AppDelegate.swift */,
+				B2D9A6AF2505864F000FDDF9 /* SceneDelegate.swift */,
+				B2D9A6B625058653000FDDF9 /* Assets.xcassets */,
+				B2D9A6DA2505BC49000FDDF9 /* mercury.png */,
+				B2D9A6D22505BBF2000FDDF9 /* venus.png */,
+				B2D9A6CE2505BBA4000FDDF9 /* earth.png */,
+				B2D9A6DC2505BC61000FDDF9 /* mars.png */,
+				B2D9A6D02505BBE8000FDDF9 /* jupiter.png */,
+				B2D9A6DE2505BC80000FDDF9 /* saturn.png */,
+				B2D9A6D42505BC14000FDDF9 /* uranus.png */,
+				B2D9A6D62505BC1D000FDDF9 /* neptune.png */,
+				B2D9A6D82505BC2B000FDDF9 /* pluto.png */,
+				B2D9A6BB25058653000FDDF9 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B2D9A6C2250586D4000FDDF9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9A6CA250593CB000FDDF9 /* PlanetsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B2D9A6C3250586FB000FDDF9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9A6B32505864F000FDDF9 /* Main.storyboard */,
+				B2D9A6B825058653000FDDF9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B2D9A6C625058AB4000FDDF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9A6C425058790000FDDF9 /* Planets.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +190,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D9A6CF2505BBA4000FDDF9 /* earth.png in Resources */,
+				B2D9A6DB2505BC49000FDDF9 /* mercury.png in Resources */,
+				B2D9A6DF2505BC80000FDDF9 /* saturn.png in Resources */,
+				B2D9A6D32505BBF2000FDDF9 /* venus.png in Resources */,
+				B2D9A6D52505BC14000FDDF9 /* uranus.png in Resources */,
 				B2D9A6BA25058653000FDDF9 /* LaunchScreen.storyboard in Resources */,
 				B2D9A6B725058653000FDDF9 /* Assets.xcassets in Resources */,
+				B2D9A6D92505BC2B000FDDF9 /* pluto.png in Resources */,
+				B2D9A6D72505BC1D000FDDF9 /* neptune.png in Resources */,
+				B2D9A6D12505BBE8000FDDF9 /* jupiter.png in Resources */,
 				B2D9A6B52505864F000FDDF9 /* Main.storyboard in Resources */,
+				B2D9A6DD2505BC61000FDDF9 /* mars.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2D9A6B22505864F000FDDF9 /* ViewController.swift in Sources */,
+				B2D9A6CD2505B6B1000FDDF9 /* PlanetsCell.swift in Sources */,
 				B2D9A6AE2505864F000FDDF9 /* AppDelegate.swift in Sources */,
 				B2D9A6B02505864F000FDDF9 /* SceneDelegate.swift in Sources */,
+				B2D9A6C525058790000FDDF9 /* Planets.swift in Sources */,
+				B2D9A6CB250593CB000FDDF9 /* PlanetsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "solarsystem-afternoonprojects-urmil/Info.plist";
+				INFOPLIST_FILE = "solarsystem-afternoonprojects-urmil/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "solarsystem-afternoonprojects-urmil/Info.plist";
+				INFOPLIST_FILE = "solarsystem-afternoonprojects-urmil/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

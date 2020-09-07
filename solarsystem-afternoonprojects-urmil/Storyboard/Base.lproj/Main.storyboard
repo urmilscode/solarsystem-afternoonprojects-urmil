@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1eb-au-9uq">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Planets View Controller-->
+        <scene sceneID="yxs-x8-HZr">
+            <objects>
+                <tableViewController id="H1C-WE-QM5" customClass="PlanetsViewController" customModule="solarsystem_afternoonprojects_urmil" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="P2N-0H-RNg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlanetsCell" rowHeight="90" id="f8U-ma-177" customClass="PlanetsCell" customModule="solarsystem_afternoonprojects_urmil" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="f8U-ma-177" id="Stg-o9-pBE">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tZ-xJ-NCg">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="9tZ-xJ-NCg" secondAttribute="trailing" id="5rJ-Mu-dH8"/>
+                                        <constraint firstItem="9tZ-xJ-NCg" firstAttribute="leading" secondItem="Stg-o9-pBE" secondAttribute="leading" id="aj5-Wn-b7C"/>
+                                        <constraint firstItem="9tZ-xJ-NCg" firstAttribute="top" secondItem="Stg-o9-pBE" secondAttribute="top" id="b2M-ex-rvU"/>
+                                        <constraint firstAttribute="bottom" secondItem="9tZ-xJ-NCg" secondAttribute="bottom" id="cDT-KJ-14x"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="planetsTitleLabel" destination="9tZ-xJ-NCg" id="fV8-pK-C9i"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="H1C-WE-QM5" id="1pz-OG-lP3"/>
+                            <outlet property="delegate" destination="H1C-WE-QM5" id="Ac5-Sz-NPy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Z3d-nk-mWA"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vpI-xK-wfq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="269.56521739130437" y="111.83035714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bwK-7T-XFY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1eb-au-9uq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="88P-gw-POA">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="H1C-WE-QM5" kind="relationship" relationship="rootViewController" id="NVP-nM-nTc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ems-Xa-UqI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-423" y="116"/>
+        </scene>
+    </scenes>
+</document>
